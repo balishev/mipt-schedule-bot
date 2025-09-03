@@ -1,0 +1,113 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Bot token (безопасность)
+config.py
+.env
+secrets.ini
+
+# Temporary files
+temp/
+tmp/
+
+# Ненужные для работы файлы
+# Исходные Excel файлы расписания
+бакалавриат*.xls*
+магистратура*.xls*
+
+# Старые версии ботов и парсеров
+old_*
+telegram_bot.py
+test_bot.py
+*parser.py
+parse_schedule.py
+main.py
+analyze_excel_structure.js
+enhanced_nodejs_parser.js
+nodejs_parser.js
+
+# Ненужные JSON файлы
+all_schedules.json
+schedule_summary.json
+parsed_schedules/bot_structures.json
+parsed_schedules/course_hierarchy.json
+parsed_schedules/enhanced_schedules.json
+parsed_schedules/fixed_schedules.json
+parsed_schedules/nodejs_schedules.json
+parsed_schedules/schedule_summary.json
+parsed_schedules/structured_schedules.json
+
+# Архивы и пакеты
+mipt_schedule_bot.tar.gz
+package-lock.json
+package.json
+
+# Документация (оставляем только README.md)
+Руководство по развертыванию Telegram-бота расписания МФТИ.md
+Telegram-бот расписания МФТИ.md
+
+# Папки с дублирующимися данными
+v2/
+raspisaniya/
+
+# Ненужные файлы парсеров
+advanced_parser.py
+correct_parser.py
+enhanced_parser.py
+fixed_parser.py
+improved_parser.py
+structured_parser.py
+
+# Старые версии основного бота
+old_final_telegram_bot.py
